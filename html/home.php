@@ -4,8 +4,13 @@
     <meta charset="utf-8">
     <!--Minified bootstrap css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!--Custom Css file-->
+    <link rel="stylesheet" href="css/home.css">
   </head>
   <body>
+    <div class="background-1">
+dfjbsvd
+    </div>
   </body>
   <!--bootstrapcdn JS links-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
