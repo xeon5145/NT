@@ -1,4 +1,3 @@
 # NT
-
-To check out follow this link
-awesomehotel.infinityfreeapp.com
+to check out this website follow this link
+http://awesomehotel.infinityfreeapp.com/
