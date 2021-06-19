@@ -9,7 +9,8 @@
   </head>
   <body>
     <div class="background-1">
-dfjbsvd
+    </div>
+    <div class="background-2">
     </div>
   </body>
   <!--bootstrapcdn JS links-->
