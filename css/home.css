@@ -25,3 +25,9 @@
   background-size: cover;
   box-shadow: 0 20px 40px 100px #122032;
 }
+.background-3
+{
+  height: 100vh;
+  width: 100%;
+  background: #122032;
+}

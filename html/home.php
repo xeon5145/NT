@@ -14,6 +14,8 @@
     </div>
     <div class="background-2">
     </div>
+    <div class="background-3">
+    </div>
   </body>
   <!--bootstrapcdn JS links-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
