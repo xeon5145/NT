@@ -8,10 +8,10 @@
 }
 .background-2
 {
-  height: 100vh;
+  height: 20vh;
   width: 100%;
-  background-image: linear-gradient(to bottom,#382712 10%,#cacedc 100%);
+  background: #122032;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 -80px 80px 10px #382712;
+  box-shadow: 0 20px 40px 100px #122032;
 }
