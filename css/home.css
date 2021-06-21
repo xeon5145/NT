@@ -6,6 +6,16 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.logo
+{
+  position: absolute;
+  background: url(../assets/logo/nt.png);
+  height: 10vh;
+  width: 10vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin:5vh 10vh;
+}
 .background-2
 {
   height: 20vh;

@@ -9,6 +9,8 @@
   </head>
   <body>
     <div class="background-1">
+      <div class="logo">
+      </div>
     </div>
     <div class="background-2">
     </div>
