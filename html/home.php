@@ -2,19 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <!--Minified bootstrap css-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--Custom Css file-->
     <link rel="stylesheet" href="css/home.css">
   </head>
   <body>
-    <div class="background-1">
-      <div class="logo">
-      </div>
+  <div class="head container-fluid navbar">
+  <a href="#" class="text-white display-4">AO</a>
+  <a href="#" class="btn btn-success float-right">Login</a>
+  </div>
+    <div class="background-1 container-fluid">
     </div>
-    <div class="background-2">
-    </div>
-    <div class="background-3">
+    <div class="background-2 container-fluid">
     </div>
   </body>
   <!--bootstrapcdn JS links-->

@@ -1,3 +1,8 @@
+.head
+{
+  position: absolute;
+  backdrop-filter:blur(5px);
+}
 .background-1
 {
   height: 100vh;
@@ -6,28 +11,18 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.logo
-{
-  position: absolute;
-  background: url(../assets/logo/nt.png);
-  height: 10vh;
-  width: 10vh;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin:5vh 10vh;
-}
 .background-2
 {
-  height: 20vh;
-  width: 100%;
-  background: #122032;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 0 20px 40px 100px #122032;
-}
-.background-3
-{
-  height: 100vh;
-  width: 100%;
-  background: #122032;
+width: 100%;
+height: 100vh;
+box-shadow: 0 -80px 80px 30px #382712;
+background-image: -webkit-gradient(linear, center top, center bottom, from(#382712), to(#cacedc));
+background-image: -webkit-linear-gradient(#382712, #cacedc);
+background-image: -moz-linear-gradient(#382712, #cacedc);
+background-image: -o-linear-gradient(#382712, #cacedc);
+background-image: -ms-linear-gradient(#382712, #cacedc);
+background-image: linear-gradient(#382712, #cacedc);
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
 }
