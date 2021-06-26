@@ -9,7 +9,7 @@
   <body>
   <div class="head container-fluid navbar">
   <a href="#" class="text-white display-4">AO</a>
-  <a href="html/login.php" class="btn btn-success float-right">Login</a>
+  <a href="html/login.php" class="login_btn btn btn-success float-right">Login</a>
   </div>
     <div class="background-1 container-fluid">
     </div>
