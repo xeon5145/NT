@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="css/home.css">
   </head>
   <body>
-  <div class="head container-fluid navbar">
+  <div class="head container-fluid">
   <a href="#" class="text-white display-4 logo_link">AO</a>
   <a href="html/login.php" class="login_btn btn btn-success float-right">Login</a>
   </div>
     <div class="background-1 container-fluid">
     </div>
+    <div class="background-2-shadow container-fluid">
+    </div>
     <div class="background-2 container-fluid">
+    </div>
+    <div class="foot">
     </div>
   </body>
   <!--bootstrapcdn JS links-->

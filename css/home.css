@@ -1,7 +1,10 @@
-.head
+ .head
 {
   position: absolute;
   backdrop-filter:blur(5px);
+  background-color: rgba(0, 0, 0, 0.25);
+  position: fixed;
+  z-index: 5;
 }
 .logo_link
 {
@@ -19,25 +22,41 @@
   background-image: url(../assets/images/todd-trapani-brq3YUxtrB0-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 2;
+
 }
-.background-2::before
+.background-2-shadow
 {
-  height: 100vh;
+  height: 30vh;
   width: 100%;
-  filter: blur(30px);
-  transform: 
+  filter: blur(15px);
+  transform: translateY(-5%) scale(1.5);
+  background-image: linear-gradient(90deg,  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
+  background-image: -webkit-linear-gradient(135deg  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
+  background-image: -moz-linear-gradient(135deg,  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
+  background-image: -o-linear-gradient(135deg,  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
+  background-image: -ms-linear-gradient(135deg, rgb(24 44 65) 10%, rgb(146 92 90) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  position: absolute;
 }
 .background-2
 {
 width: 100%;
 height: 100vh;
-box-shadow: 0px 33px 25px 0 #C33764, 0px 33px 15px 0px #1D2671;
-background-image: linear-gradient(135deg, #C33764 10%, #1D2671 100%);
-background-image: -webkit-linear-gradient(135deg, #C33764 10%, #1D2671 100%);
-background-image: -moz-linear-gradient(135deg, #C33764 10%, #1D2671 100%);
-background-image: -o-linear-gradient(135deg, #C33764 10%, #1D2671 100%);
-background-image: -ms-linear-gradient(135deg, #C33764 10%, #1D2671 100%);
+background-image: linear-gradient(135deg,  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
+background-image: -webkit-linear-gradient(135deg  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
+background-image: -moz-linear-gradient(135deg,  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
+background-image: -o-linear-gradient(135deg, rgb(24 44 65) 10%, rgb(146 92 90) 100%);
+background-image: -ms-linear-gradient(135deg, rgb(24 44 65) 10%, rgb(146 92 90) 100%);
 background-repeat: no-repeat;
 background-size: cover;
-z-index: 1;
+z-index: 2;
+}
+.foot
+{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 40vh;
 }
