@@ -8,12 +8,11 @@
   </head>
   <body>
   <div class="head container-fluid">
-  <a href="#" class="text-white display-4 logo_link">AO</a>
-  <a href="html/login.php" class="login_btn btn btn-success float-right">Login</a>
+  <a href="#" class=" display-4 logo_link">AO</a>
+  <a href="html/login.php" class="login_btn float-right">Login</a>
+  <input class="search float-right" type="text" name="search" placeholder="Search">
   </div>
     <div class="background-1 container-fluid">
-    </div>
-    <div class="background-2-shadow container-fluid">
     </div>
     <div class="background-2 container-fluid">
     </div>

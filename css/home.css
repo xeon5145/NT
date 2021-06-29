@@ -2,18 +2,56 @@
 {
   position: absolute;
   backdrop-filter:blur(5px);
-  background-color: rgba(0, 0, 0, 0.25);
   position: fixed;
   z-index: 5;
 }
 .logo_link
 {
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
+  color: #ffffff;
 }
 .logo_link:hover
 {
   text-decoration: none;
-  transform: scale(1.05);
+  color: #ffffff;
+}
+.search::before
+{
+  background: url(assets/logo/awesome-search.png);
+  height: fit-content;
+  width: auto;
+}
+.search
+{
+  background: none;
+  color: #ffffff;
+  border: none ;
+  border-bottom:solid 2px #FFFFFF;
+  width: 12em;
+  margin: 2% 1%;
+}
+.search::placeholder
+{
+  color: #FFFFFF;
+}
+.login_btn
+{
+  display: flex;
+  color:#ffffff;
+  padding: 15px 35px;
+  font-size: 12pt;
+  background-color: rgb(0, 130, 255);
+  box-shadow: 0px 0 10px 2px rgb(0, 130, 255);
+  border: none;
+  border-radius: 100px;
+  margin: 1% 2%;
+  transition-duration: 0.3s;
+}
+.login_btn:hover
+{
+  color: white;
+  text-decoration: none;
+  box-shadow: 0px 0 10px 8px rgb(0, 130, 255);
 }
 .background-1
 {
@@ -25,38 +63,18 @@
   z-index: 2;
 
 }
-.background-2-shadow
-{
-  height: 30vh;
-  width: 100%;
-  filter: blur(15px);
-  transform: translateY(-5%) scale(1.5);
-  background-image: linear-gradient(90deg,  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
-  background-image: -webkit-linear-gradient(135deg  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
-  background-image: -moz-linear-gradient(135deg,  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
-  background-image: -o-linear-gradient(135deg,  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
-  background-image: -ms-linear-gradient(135deg, rgb(24 44 65) 10%, rgb(146 92 90) 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-  position: absolute;
-}
 .background-2
 {
 width: 100%;
 height: 100vh;
-background-image: linear-gradient(135deg,  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
-background-image: -webkit-linear-gradient(135deg  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
-background-image: -moz-linear-gradient(135deg,  rgb(24 44 65) 10%, rgb(146 92 90) 100%);
-background-image: -o-linear-gradient(135deg, rgb(24 44 65) 10%, rgb(146 92 90) 100%);
-background-image: -ms-linear-gradient(135deg, rgb(24 44 65) 10%, rgb(146 92 90) 100%);
+background-color: #002337;
 background-repeat: no-repeat;
 background-size: cover;
 z-index: 2;
 }
 .foot
 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   width: 100%;
-  height: 40vh;
+  height: 25vh;
 }
