@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="css/home.css">
   </head>
   <body>
-  <div class="head container-fluid">
-  <a href="#" class=" display-4 logo_link">AO</a>
-  <a href="html/login.php" class="login_btn float-right">Login</a>
-  <input class="search float-right" type="text" name="search" placeholder="Search">
+  <div class="head container-fluid navbar row">
+  <a href="#" class=" display-4 logo_link text-center float-left align-items-start col-xs-1 col-md-1">AO</a>
+  <div class="search-box justify-content-center align-items-end row col-xs-10 col-md-10">
+    <input class="search-input" type="text" name="search" placeholder="Search">
+    <input class="search-go" type="button" name="go">
+  </div>
+  <a href="html/login.php" class="login_btn btn float-right col-xs-1 col-md-1">Login</a>
   </div>
     <div class="background-1 container-fluid">
     </div>
