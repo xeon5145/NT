@@ -16,8 +16,12 @@
   <a href="html/login.php" class="login_btn btn float-right col-xs-1 col-md-1">Login</a>
   </div>
     <div class="background-1 container-fluid">
-    </div>
-    <div class="background-2 container-fluid">
+      <div class="tile">
+        <form class="" action="index.html" method="post">
+          <label class="btn primary-btn upload-button-home-label" for="upload-button-home">Upload</label>
+          <input type="file" name="upload-button-home" id="upload-button-home">
+        </form>
+      </div>
     </div>
     <div class="foot">
     </div>
