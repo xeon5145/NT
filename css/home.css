@@ -83,19 +83,7 @@ body
   overflow: auto;
   border-radius: 20px;
 }
-.file-input-homepage
-{
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
-  padding: 5em 3em;
-  margin: 2em;
-  font-size: 16pt;
-  transition-duration: 0.2s;
-}
-.file-input-homepage:hover
-{
-  transform: scale(1.025);
-}
+/*need to build upload tile , kind of redirection page to upload form*/
 .foot
 {
   background-color: #ffffff;

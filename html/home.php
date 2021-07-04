@@ -18,10 +18,7 @@
   <div class="background-1 row container-fluid">
   </div>
   <div class="container col-10 content-viewer">
-    <form class="" action="index.html" method="post">
-      <label for="file-input-homepage" class="file-input-homepage">Upload</label>
-      <input type="file" name="file-input-homepage" id="file-input-homepage" value="" hidden>
-    </form>
+    <!--need to build upload tile here-->
   </div>
   <div class="foot col-12 container-fluid">
   </div>
