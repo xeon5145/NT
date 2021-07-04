@@ -32,6 +32,7 @@ body
   color: #FFFFFF;
   font-size: 13pt;
   margin-top: 2%;
+  cursor: pointer;
 }
 .search-input::placeholder
 {
@@ -78,17 +79,22 @@ body
 {
   top: 15vh;
   height: fit-content;
-  background-color: pink;
+  background-color: rgba(255, 255, 255, 0.3);
   overflow: auto;
   border-radius: 20px;
 }
 .file-input-homepage
 {
-  background-color: rgba(254, 255, 254, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   padding: 5em 3em;
   margin: 2em;
   font-size: 16pt;
+  transition-duration: 0.2s;
+}
+.file-input-homepage:hover
+{
+  transform: scale(1.025);
 }
 .foot
 {
