@@ -15,16 +15,16 @@
   </div>
   <a href="html/login.php" class="login_btn btn float-right col-xs-1 col-md-1">Login</a>
   </div>
-    <div class="background-1 container-fluid">
-      <div class="tile">
-        <form class="" action="index.html" method="post">
-          <label class="btn primary-btn upload-button-home-label" for="upload-button-home">Upload</label>
-          <input type="file" name="upload-button-home" id="upload-button-home">
-        </form>
-      </div>
-    </div>
-    <div class="foot">
-    </div>
+  <div class="background-1 row container-fluid">
+  </div>
+  <div class="container col-10 content-viewer">
+    <form class="" action="index.html" method="post">
+      <label for="file-input-homepage" class="file-input-homepage">Upload</label>
+      <input type="file" name="file-input-homepage" id="file-input-homepage" value="" hidden>
+    </form>
+  </div>
+  <div class="foot col-12 container-fluid">
+  </div>
   </body>
   <!--bootstrapcdn JS links-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
