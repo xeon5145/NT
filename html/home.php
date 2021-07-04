@@ -18,6 +18,7 @@
   <div class="background-1 row container-fluid">
   </div>
   <div class="container col-10 content-viewer">
+    Upload here tile will be here
     <!--need to build upload tile here-->
   </div>
   <div class="foot col-12 container-fluid">
