@@ -1,4 +1,81 @@
+.head
+{
+ backdrop-filter:blur(5px);
+ position: fixed;
+ z-index: 5;
+ height: 10vh;
+}
+.logo_link
+{
+ color: #ffffff;
+}
+.logo_link:hover
+{
+ text-decoration: none;
+ color: #ffffff;
+}
+.search-box
+{
+ margin: auto;
+}
+.search-input
+{
+ border: none;
+ background: none;
+ border-bottom: solid 2px #FFFFFF;
+ width: 55vh;
+ color: #FFFFFF;
+ font-size: 13pt;
+ margin-top: 2%;
+ cursor: pointer;
+}
+.search-input::placeholder
+{
+ color: #FFFFFF;
+}
+.search-go
+{
+ margin: 0 1%;
+ border: none;
+ height:3vh;
+ width:3vh;
+ background: url(../assets/logo/awesome-search.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.background-1
+{
+    background-image: url(../assets/images/todd-trapani-brq3YUxtrB0-unsplash.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position: fixed;
+}
 label
 {
   font-size: 150%;
+}
+.form-tile
+{
+  padding: 5em 4em;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: fit-content;
+  margin: auto;
+  border-radius: 10px;
+}
+.form-tile input
+{
+  background: none;
+  border: none;
+  border-bottom: 2px solid;
+  border-radius: 0px;
+}
+.form-tile input:active
+{
+  background: none;
+  border: none;
+  border-bottom: 2px solid;
+  border-radius: 0px;
 }

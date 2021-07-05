@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="../css/login.css">
   </head>
   <body>
-    <form class="container" action="" method="post">
+    <!--Header starts-->
+    <div class="head container-fluid navbar row">
+      <a href="#" class=" display-4 logo_link text-center float-left align-items-start col-xs-1 col-md-1">AO</a>
+      <div class="search-box align-items-end justify-content-center row col-xs-10 col-md-10">
+        <input class="search-input" type="text" name="search" placeholder="Search">
+        <input class="search-go" type="button" name="go">
+      </div>
+    </div>
+    <!--Header ends-->
+    <!--login form card starts-->
+    <div class="background-1 row container-fluid">
+    <form class="form-tile" action="" method="post">
       <div class="form-group">
         <label for="username">Username:</label>
         <input type="text" class="form-control" placeholder="Enter Username" name="username">
@@ -23,6 +34,8 @@
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+  </div>
+  <!--login form card ends-->
   </body>
   <!--bootstrapcdn JS links-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
