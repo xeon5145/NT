@@ -1,0 +1,60 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+body
+{
+  font-family:  'Open Sans', sans-serif;
+  background: url(../assets/images/todd-trapani-brq3YUxtrB0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar img
+{
+  height: 1.4rem;
+  float: right;
+  padding: 1.4rem;
+}
+.logo
+{
+  color: #FFFFFF;
+  font-size: 2rem;
+  padding: 10px;
+}
+.search-bar
+{
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  border-radius: 10px;
+  margin: 1.7rem auto;
+  justify-content: space-around;
+  align-items: center;
+  width:80%;
+  padding: 0.4rem 0.8rem;
+}
+.search-bar input
+{
+  border: none;
+  background: none;
+  border-bottom: 2px solid #707070;
+  width: 17rem;
+  height: 1.5rem;
+}
+.search-bar input::placeholder
+{
+  color:#707070;
+  font-size: 16pt;
+}
+.search-bar svg
+{
+  height: 4rem;
+  margin-left: 0.5rem;
+}
