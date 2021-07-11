@@ -17,6 +17,13 @@
         <img class="hamburger" src="./assets/logo/hamburger.png" alt="Hamburger">
       </div>
       <!--nav bar ends-->
+      <div class="hamburger-menu">
+        <ul>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
       <!--Search bar starts-->
           <div class="search-bar">
           <input type="text" name="" placeholder="Search">
@@ -36,6 +43,8 @@
         </div>
       <!--body content view ends-->
   </body>
+  <!--JS file link-->
+  <script src="./js/main.js" charset="utf-8"></script>
   <!--bootstrapcdn JS links-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

@@ -23,6 +23,31 @@ body
   float: right;
   padding: 1.4rem;
 }
+.hamburger-menu
+{
+  background: rgba(255, 255, 255, 0.7);
+  padding:1.5rem;
+  display: none;
+  border-radius: 10px;
+  width: 75%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.hamburger-menu.show
+{
+  display: block;
+}
+.hamburger-menu li
+{
+  list-style: none;
+  padding: 0.5rem;
+}
+.hamburger-menu a
+{
+  color: #707070;
+  text-decoration: none;
+}
 .logo
 {
   color: #FFFFFF;
