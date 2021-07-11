@@ -27,17 +27,13 @@
       <!--Search bar ends-->
       <!--body content view starts-->
       <div class="content-viewer">
-        <div class="label-viewer">
-        <label for="file-input">
+        <!--link to to a page if u want to upload a new site-->
+        <a  href="#" class="label-viewer">
           <svg xmlns="http://www.w3.org/2000/svg" width="33.404" height="33.404" viewBox="0 0 33.404 33.404">
             <path id="Icon_ionic-ios-add" data-name="Icon ionic-ios-add" d="M40.289,23.587H27.746V11.044a2.08,2.08,0,1,0-4.159,0V23.587H11.044a2.08,2.08,0,0,0,0,4.159H23.587V40.289a2.08,2.08,0,0,0,4.159,0V27.746H40.289a2.08,2.08,0,0,0,0-4.159Z" transform="translate(-8.965 -8.965)" fill="#817979"/>
           </svg>
-          <br/>
-          <span>Upload</span>
-        </label>
-        <input type="file" id="file-input" name="" value="" hidden>
+          </a>
         </div>
-      </div>
       <!--body content view ends-->
   </body>
   <!--bootstrapcdn JS links-->
