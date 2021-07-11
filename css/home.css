@@ -38,7 +38,7 @@ body
   justify-content: space-around;
   align-items: center;
   width:80%;
-  padding: 0.4rem 0.8rem;
+  padding: 0.4rem 0.8rem 0.1rem 0.8rem;
 }
 .search-bar input
 {
@@ -47,6 +47,11 @@ body
   border-bottom: 2px solid #707070;
   width: 17rem;
   height: 1.5rem;
+  font-size: 16pt;
+}
+.search-bar input:focus
+{
+  outline: none;
 }
 .search-bar input::placeholder
 {
@@ -57,4 +62,27 @@ body
 {
   height: 4rem;
   margin-left: 0.5rem;
+}
+.content-viewer
+{
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  width:80%;
+  padding: 0.4rem 0.8rem;
+}
+.label-viewer
+{
+  display: flex;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 2rem auto;
+  padding: 4rem 3rem;
+  width: fit-content;
+}
+.label-viewer svg
+{
+  justify-content: space-around;
 }

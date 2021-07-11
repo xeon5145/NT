@@ -11,17 +11,34 @@
     <link rel="stylesheet" href="css/home.css">
   </head>
   <body>
+    <!--nav bar starts-->
       <div class="navbar">
         <p class="logo">NT</p>
         <img class="hamburger" src="./assets/logo/hamburger.png" alt="Hamburger">
       </div>
+      <!--nav bar ends-->
+      <!--Search bar starts-->
           <div class="search-bar">
           <input type="text" name="" placeholder="Search">
           <svg xmlns="http://www.w3.org/2000/svg" width="24.481" height="24.486" viewBox="0 0 24.481 24.486">
           <path id="Icon_awesome-search" data-name="Icon awesome-search" d="M24.149,21.169,19.381,16.4a1.147,1.147,0,0,0-.813-.335h-.779a9.942,9.942,0,1,0-1.721,1.721v.779a1.147,1.147,0,0,0,.335.813l4.768,4.768a1.143,1.143,0,0,0,1.621,0L24.144,22.8a1.153,1.153,0,0,0,0-1.626Zm-14.2-5.1a6.121,6.121,0,1,1,6.121-6.121A6.117,6.117,0,0,1,9.946,16.067Z" fill="#707070"/>
         </svg>
       </div>
-    </div>
+      <!--Search bar ends-->
+      <!--body content view starts-->
+      <div class="content-viewer">
+        <div class="label-viewer">
+        <label for="file-input">
+          <svg xmlns="http://www.w3.org/2000/svg" width="33.404" height="33.404" viewBox="0 0 33.404 33.404">
+            <path id="Icon_ionic-ios-add" data-name="Icon ionic-ios-add" d="M40.289,23.587H27.746V11.044a2.08,2.08,0,1,0-4.159,0V23.587H11.044a2.08,2.08,0,0,0,0,4.159H23.587V40.289a2.08,2.08,0,0,0,4.159,0V27.746H40.289a2.08,2.08,0,0,0,0-4.159Z" transform="translate(-8.965 -8.965)" fill="#817979"/>
+          </svg>
+          <br/>
+          <span>Upload</span>
+        </label>
+        <input type="file" id="file-input" name="" value="" hidden>
+        </div>
+      </div>
+      <!--body content view ends-->
   </body>
   <!--bootstrapcdn JS links-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
