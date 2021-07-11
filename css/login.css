@@ -35,7 +35,7 @@
 }
 .search-go
 {
- margin: 0 1%;
+ margin:0 1vh;
  border: none;
  height:3vh;
  width:3vh;
@@ -53,10 +53,6 @@
     margin: 0;
     position: fixed;
 }
-label
-{
-  font-size: 150%;
-}
 .form-tile
 {
   padding: 5em 4em;
@@ -65,6 +61,10 @@ label
   margin: auto;
   border-radius: 10px;
 }
+.form-tile label
+{
+  font-size: 150%;
+}
 .form-tile input
 {
   background: none;
@@ -72,10 +72,7 @@ label
   border-bottom: 2px solid;
   border-radius: 0px;
 }
-.form-tile input:active
+.sbt-btn
 {
-  background: none;
-  border: none;
-  border-bottom: 2px solid;
-  border-radius: 0px;
+  margin: 1em 4em;
 }

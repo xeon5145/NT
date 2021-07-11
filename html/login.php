@@ -32,7 +32,7 @@
           <input class="form-check-input" type="checkbox" name="remember"> Remember Me
         </label>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary sbt-btn">Submit</button>
     </form>
   </div>
   <!--login form card ends-->
