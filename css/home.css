@@ -19,9 +19,9 @@ body
 }
 .navbar img
 {
-  height: 1.4rem;
+  height: 1.1rem;
   float: right;
-  padding: 1.4rem;
+  padding:1.7rem 1.4rem;
 }
 .hamburger-menu
 {
@@ -72,7 +72,7 @@ body
   border-bottom: 2px solid #707070;
   width: 17rem;
   height: 1.5rem;
-  font-size: 16pt;
+  font-size: 12pt;
 }
 .search-bar input:focus
 {
@@ -81,7 +81,7 @@ body
 .search-bar input::placeholder
 {
   color:#707070;
-  font-size: 16pt;
+  font-size: 12pt;
 }
 .search-bar svg
 {
